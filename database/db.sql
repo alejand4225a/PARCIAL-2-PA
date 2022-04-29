@@ -30,7 +30,7 @@ CREATE TABLE `usuarios` (
 /*Data for the table `usuarios` */
 
 insert  into `usuarios`(`id_usuario`,`nombre`,`email`,`contraseña`,`confirmacion`) values 
-(2,'ALEJANDRO','jairpistala2020@itp.edu.co','0e10a61aebe14f466605d661c4ddd66ef64580b9a445d820719e177d77e886ee','1');
+(2,'ALEJANDRO','diegofernandoortega2020@itp.edu.co','0e10a61aebe14f466605d661c4ddd66ef64580b9a445d820719e177d77e886ee','1');
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;

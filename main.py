@@ -168,10 +168,10 @@ def registrousuario():
             msg = EmailMessage()
             msg.set_content("Confirmar tu correo aqui: {} ".format(link))
             msg["Subject"] = "REGISTRO DE USUARIO"
-            msg["From"] = "jairpistala2020@itp.edu.co"
+            msg["From"] = "diegofernandoortega2020@itp.edu.co"
             msg["To"] = email
-            username = "jairpistala2020@itp.edu.co"
-            password = "1124867475"  
+            username = "diegofernandoortega2020@itp.edu.co"
+            password = "Diegofernan92Do"  
             server = SMTP("smtp.gmail.com:587")
             server.starttls()
             server.login(username, password)
@@ -226,10 +226,10 @@ def restablecerpassword():
         msg = EmailMessage()
         msg.set_content("Para restablecer tu contraseña ingresa al siguiente link (Tiempo limite 2 min) : {} ".format(link_password))
         msg["Subject"] = "Recuperar contraseña"
-        msg["From"] = "jairpistala2020@itp.edu.co"
+        msg["From"] = "diegofernandoortega2020@itp.edu.co"
         msg["To"] = email
-        username = "jairpistala2020@itp.edu.co"
-        password = "1124867475" 
+        username = "diegofernandoortega2020@itp.edu.co"
+        password = "Diegofernan92Do" 
         server = SMTP("smtp.gmail.com:587")
         server.starttls()
         server.login(username, password)
